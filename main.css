@@ -10,26 +10,31 @@
       }
         
         h1 { 
-          margin: 0 0 16px 0; 
-          padding: 0 0 16px 0; 
           font-size: 42px; font-weight: bold; 
-          letter-spacing: -2px; 
-          border-bottom: 1px solid #999; 
+          margin-bottom: -20px;
       }
         
-        h2 { 
+        h4 { 
           font-size: 20px; 
           margin: 0 0 6px 0; 
           position: relative; 
         }
         
-        h2 span { 
+        h4 span { 
           position: absolute; 
           bottom: 0; right: 0; 
           font-style: italic; 
           font-family: Georgia, Serif; 
           font-size: 16px; color: #999; 
           font-weight: normal; 
+      }
+
+      h3 {
+        border-bottom: 1px solid #000;
+      }
+
+      h4 {
+        font-weight: bold;
       }
         
         p { 
